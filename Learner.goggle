@@ -1,0 +1,32 @@
+! name: Self Learner
+! description: Boost learning and STEM content websites
+! public: true
+! author: Omar Menshawy
+
+! Discard encyclopedias
+$discard,site=wikipedia.org
+$discard,britannica.com
+
+! Downrank community Q&A
+$downrank,site=reddit.com
+$downrank,site=quora.com
+
+! Downrank scinecedirect because it's useless and doesn't explain anything
+$downrank,site=sciencedirect.com
+
+! Boost learning
+$boost=3,site=khanacademy.org
+$boost=4,site=byjus.com
+$boost=4,site=*.libretexts.org
+$boost=3,site=youtube.com
+$boost=4,site=mathisfun.com
+$boost=4,site=cuemath.com
+$boost=2,site=mathworld.wolfram.com
+$boost=3,site=openstax.org
+$boost=2,site=ed.ted.com
+$boost=3,site=doubtnut.com
+$boost=3,site=brainly.com
+$boost=3,site=gauthmath.com
+$boost=2,site=pearson.com
+
+! Contact for additions or edits: omar-menshawy@proton.me
