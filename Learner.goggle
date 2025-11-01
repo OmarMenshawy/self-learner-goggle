@@ -5,7 +5,7 @@
 
 ! Discard encyclopedias
 $discard,site=wikipedia.org
-$discard,britannica.com
+$discard,site=britannica.com
 
 ! Downrank community Q&A
 $downrank,site=reddit.com
@@ -17,7 +17,12 @@ $downrank,site=sciencedirect.com
 ! Boost learning
 $boost=3,site=khanacademy.org
 $boost=4,site=byjus.com
-$boost=4,site=*.libretexts.org
+$boost=4,site=libretexts.org
+$boost=4,site=phys.libretexts.org
+$boost=4,site=chem.libretexts.org
+$boost=4,site=bio.libretexts.org
+$boost=4,site=geo.libretexts.org
+$boost=4,site=math.libretexts.org
 $boost=3,site=youtube.com
 $boost=4,site=mathisfun.com
 $boost=4,site=cuemath.com
@@ -28,5 +33,6 @@ $boost=3,site=doubtnut.com
 $boost=3,site=brainly.com
 $boost=3,site=gauthmath.com
 $boost=2,site=pearson.com
+
 
 ! Contact for additions or edits: omar-menshawy@proton.me
